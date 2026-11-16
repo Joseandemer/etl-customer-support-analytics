@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+
+# Datos originales
+data/raw/*
+!data/raw/.gitkeep
+
+# Datos procesados
+data/processed/*.csv
+!data/processed/.gitkeep
+
+# Dashboard Power BI
+*.pbix
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Archivos del sistema
+.vscode/
+.DS_Store
+Thumbs.db
